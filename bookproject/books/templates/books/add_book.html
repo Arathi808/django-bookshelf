@@ -1,0 +1,18 @@
+{% extends 'books/base.html' %}
+{% block content %}
+<section class="books-page">
+    <h1>Add New Book</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <label>Title</label>
+        <input type="text" name="title" required>
+        <label>Author</label>
+        <input type="text" name="author" required>
+        <label>Category</label>
+        <input type="text" name="category" required>
+        <label>Year</label>
+        <input type="number" name="year" required>
+        <button type="submit">Save Book</button>
+    </form>
+</section>
+{% endblock %}

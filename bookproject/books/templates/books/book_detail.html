@@ -1,0 +1,17 @@
+{% extends 'books/base.html' %}
+{% block content %}
+
+<section class="books-page">
+    <h1>Book Details</h1>
+    <div class="book-card">
+        <h2>{{ book.title }}</h2>
+        <p><strong>ID:</strong> {{ book.id }}</p>
+        <p><strong>Author:</strong> {{ book.author }}</p>
+        <p><strong>Category:</strong> {{ book.category }}</p>
+        <p><strong>Year:</strong> {{ book.year }}</p>
+        <a href="{% url 'delete_book' book.id %}" class="borrow-btn">Delete this book</a>
+    </div>
+
+</section>
+
+{% endblock %}
