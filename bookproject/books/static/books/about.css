@@ -1,0 +1,54 @@
+.books-page h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.books-page h2 {
+    font-size: 23px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.books-page p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.books-page ul {
+    margin-left: 25px;
+    line-height: 2;
+}
+.books-page {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.books-page h1 {
+    color: #173d2d;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e8bd45;
+    padding-bottom: 15px;
+}
+
+.books-page h2 {
+    color: #286044;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.books-page p {
+    color: #555;
+    line-height: 1.8;
+}
+
+.books-page ul {
+    margin-left: 25px;
+    line-height: 2;
+}

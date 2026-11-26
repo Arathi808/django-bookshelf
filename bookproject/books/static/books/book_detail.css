@@ -1,0 +1,28 @@
+.books-page h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.book-details {
+    width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.book-details h2 {
+    margin-bottom: 20px;
+}
+
+.book-details p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.book-details a {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+}

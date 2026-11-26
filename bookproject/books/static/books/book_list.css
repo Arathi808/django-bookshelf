@@ -1,0 +1,44 @@
+.books-page h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.books-page table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.books-page th,
+.books-page td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.books-page th {
+    background-color: #173d2d;
+    color: white;
+}
+
+.books-page tr:hover {
+    background-color: #f5f5e9;
+}
+
+.books-page td a {
+    color: #286044;
+    /* text-decoration: none; */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.browse-btn {
+    display: inline-block;
+    background-color: #e8bd45;
+    color: #26352d;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}

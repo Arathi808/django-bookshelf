@@ -1,9 +1,10 @@
 {% extends 'books/base.html' %}
+{% load static %}
 {% block content %}
-
+<link rel="stylesheet" href="{% static 'books/book_detail.css' %}">
 <section class="books-page">
     <h1>Book Details</h1>
-    <div class="book-card">
+    <div class="book-details">
         <h2>{{ book.title }}</h2>
         <p><strong>ID:</strong> {{ book.id }}</p>
         <p><strong>Author:</strong> {{ book.author }}</p>

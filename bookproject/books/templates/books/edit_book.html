@@ -1,5 +1,7 @@
 {% extends 'books/base.html' %}
+{% load static %}
 {% block content %}
+<link rel="stylesheet" href="{% static 'books/edit_book.css' %}">
 <section class="books-page">
     <h1>Edit Book</h1>
     <form method="POST">

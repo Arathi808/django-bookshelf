@@ -1,0 +1,38 @@
+.books-page h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.delete-box {
+    width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.delete-box h3 {
+    margin: 20px 0;
+}
+
+.delete-box button {
+    background-color: #b83232;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-box button:hover{
+    opacity: 0.9;
+}
+.delete-box a {
+    margin-left: 15px;
+    color: #286044;
+    text-decoration: none;
+}
+.delete-box a:hover{
+    opacity: 0.9;
+}
